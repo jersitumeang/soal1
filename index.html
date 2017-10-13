@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <style type="text/css" >
+        .redBox{
+          font-size: 20px;
+          color: #FF0000;
+          padding: 15px;
+          text-align: center;
+          border: 1px solid #FF0000;
+          margin-top:40px;
+          margin-bottom:40px;
+          
+        }
+
+        .redBox1{
+          width:30%;
+        }
+
+        .sembunyi{
+          display: none;
+        }
+    </style>
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $("#tampil").click(function(){
+            $(".sembunyi").show("slow");
+           
+          });
+
+          $("#sembunyi").click(function(){
+            $(".sembunyi").hide();
+
+          });
+      })
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row row1">
+          <div class="col-md-12">
+            <center>
+                <div class="redBox redBox1">
+                  UUD 1945
+                </div>
+            </center>
+          </div>
+          
+      </div>
+
+      <div class="row row2">
+          <div class="col-md-4">
+            <center>
+                <div class="redBox sembunyi">
+                  <p>MPR</p><br />
+                  <p>DPR-DPD</p>
+                </div>
+            </center>
+          </div>
+
+          <div class="col-md-4">
+            <center>
+                <div class="redBox sembunyi">
+                  <p>Presiden</p><br />
+                  <p>Wakil Presiden</p>
+                </div>
+            </center>
+          </div>
+
+          <div class="col-md-4">
+            <center>
+                <div class="redBox sembunyi">
+                   <p>MA</p><br />
+                  <p>MK</p>
+                </div>
+            </center>
+          </div>
+          
+      </div>
+
+      <div class="row row3" >
+          <div class="col-md-4">
+            <center>
+                <div class="redBox sembunyi">
+                  Legislatif
+                </div>
+            </center>
+          </div>
+
+          <div class="col-md-4">
+            <center>
+                <div class="redBox sembunyi">
+                  Eksekutif
+                </div>
+            </center>
+          </div>
+
+          <div class="col-md-4">
+            <center>
+                <div class="redBox sembunyi">
+                  Yudikatif
+                </div>
+            </center>
+          </div>
+          
+      </div>
+
+
+      <div class="row row4" >
+          <div class="col-md-6">
+            <center>
+                <input id="tampil" type="submit" name="" class="btn btn-md btn-primary" value="Tampilkan Semua" />
+            </center>
+          </div>
+
+          <div class="col-md-6">
+            <center>
+                 <input id="sembunyi" type="submit" name="" class="btn btn-md btn-primary" value="Sembunyikan Semua" />
+            </center>
+          </div>
+
+          
+          
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
